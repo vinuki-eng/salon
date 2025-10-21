@@ -1,12 +1,15 @@
 .main{
    margin: auto;
+   background-color: white;
 }
 .heading{
     background-color: black;
     display: flex;
     justify-content: space-between;
     
-    
+}
+html{
+    scroll-behavior: smooth;
 }
 .logo{
     width: 100px;
@@ -89,4 +92,24 @@ button a:hover{
     top: 20%;
     right: 50%;
     font-size: 400%;
+}
+.about-services{
+    background-color: rgb(209, 210, 204);
+    color: black;
+    margin-bottom: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-services img{
+    width: 50%;
+    height: auto;
+}
+
+.about-services_content{
+    margin-left: 4%;
+    margin-right: 1%;
+    font-size: x-large;
+    margin-top: 5%;
 }
