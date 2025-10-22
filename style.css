@@ -96,7 +96,7 @@ button a:hover{
 .about-services{
     background-color: rgb(209, 210, 204);
     color: black;
-    margin-bottom: 0.5%;
+    margin-bottom: 0.3%;
     display: flex;
     justify-content: space-between;
     
@@ -113,3 +113,27 @@ button a:hover{
     font-size: x-large;
     margin-top: 5%;
 }
+
+.social_media-footer{
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-logo{
+    width: 200px;
+    height: auto; 
+}
+.social-media{
+    padding-left: 15%;
+    
+}
+
+
+
+
+
