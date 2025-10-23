@@ -18,7 +18,6 @@ html{
     margin-right: 0px;
 }
 .navbar{
-    
     font-size: 19px;
     
 }
@@ -37,9 +36,7 @@ html{
 .navbar ul{
       list-style-type: none;
       display: flex;
-      margin-top: 3%;
-
-      
+      margin-top: 3%;     
 }
 
 .navbar li{
@@ -116,11 +113,11 @@ button a:hover{
 
 .social_media-footer{
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
     background-color: black;
     color: white;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
 }
 
@@ -131,6 +128,47 @@ button a:hover{
 .social-media{
     padding-left: 15%;
     
+}
+
+.quick-links a{
+    text-decoration: none;
+    font-size: larger;
+    color: white  ;
+}
+
+.quick-links a:hover{
+    color:rgb(234, 175, 97) ;
+}
+
+.quick-links ul{
+    list-style-type: none;
+}
+
+.quick-links li{
+    padding-bottom: 15%;
+    
+}
+
+
+.footer-icons ul{
+    list-style-type: none;
+    font-size: larger;
+}
+
+#clock{
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 

@@ -3,28 +3,13 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <head>
         <title>
             Salon LIYA
         </title>
     </head>
 
     <body class="main">
-        <div class="heading">
-            <img src="images/liyo.jpg" alt="Logo" class="logo">
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="contact.html"  target="_blank">Contact Us</a></li>
-                    </ul>
-                </nav>
-                 <div class="buttons">
-                <button type="button"><a href="">BOOK NOW</a> </button>
-                <button type="button"><a href="">MY ACCOUNT</a> </button>
-                </div>
-        </div>
+        <?php include_once 'navbar.php'; ?>
         
         <div class="hero">
              <div class="hero_image_hero">
@@ -57,16 +42,6 @@
             <img src="images/services.jpg" alt="services"></img>
         </div>
 
-        <div class="social_media-footer">
-            <div class="logos">
-            <img src="images/liyo.jpg" alt="Logo" class="footer-logo"></img>
-              <div class="social-media">
-                <img src="images/facebook(1).png" alt="Facebook" class="social-media-logo"></img>
-                <img src="images/insta.png" alt="instagram" class="social-media-logo" id="insta"></img>
-                <img src="images/tiktok.png" alt="tiktok" class="social-media-logo"></img>
-              </div>
-            </div>
-           
-        </div>
+       <?php include_once 'footer.php';?>
     </body>
 </html>
