@@ -8,8 +8,9 @@
               </div>
             </div>
            
+            
             <div class="quick-links">
-                <h2 >Quick Links</h2>
+                <h2 id="quick">Quick Links</h2>
                  <ul>
                   <li><a href="index.php">Home</a></li>
                   <li><a href="#about-us">About Us</a></li>
@@ -19,7 +20,7 @@
              </div>
                
              <div class="footer-icons">
-                <h2>Contact Us</h2>
+                <h2 id="footer-heading">Contact Us</h2>
                 <ul>
                   <div id="clock">
                   <li>Opening Times</li>
@@ -29,6 +30,7 @@
                   Kumarathunga Road,Matara,Sri Lanka
                 </ul>
              </div>
+             
 
              <div>
               <div>
@@ -42,3 +44,4 @@
                 </div>
              </div>
         </div>
+        
