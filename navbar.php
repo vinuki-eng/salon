@@ -1,4 +1,5 @@
 <div class="heading">
+ 
             <img src="images/liyo.jpg" alt="Logo" class="logo">
             <nav class="navbar">
                 <ul class="nav-links">

@@ -1,4 +1,5 @@
   <div class="social_media-footer">
+    
             <div class="logos">
             <img src="images/liyo.jpg" alt="Logo" class="footer-logo"></img>
               <div class="social-media">
@@ -13,7 +14,7 @@
                 <h2 id="quick">Quick Links</h2>
                  <ul>
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="#about-us">About Us</a></li>
+                  <li><a href="#about-us">About Us</a></li> 
                   <li><a href="#services">Services</a></li>
                   <li><a href="contact.php"  target="_blank">Contact Us</a></li>
                  </ul>
@@ -45,5 +46,5 @@
              </div>
              
         </div>
-        <span></span>
+        
         
