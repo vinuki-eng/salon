@@ -15,7 +15,7 @@
                  </div>
             </nav>
                  <div class="buttons">
-                  <button type="button"><a href="">BOOK NOW</a> </button>
-                  <button type="button"><a href="">MY ACCOUNT</a> </button>
+                  <button type="button"><a href="booknow.php" target="_blank">BOOK NOW</a> </button>
+                  <button type="button"><a href="myaccount.php" target="_blank">MY ACCOUNT</a> </button>
                 </div>
         </div>
