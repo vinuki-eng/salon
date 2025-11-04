@@ -32,7 +32,7 @@
                  <input type="number" id="Contact no" name="Contact no" placeholder=" Your contact number*" class="name-and-number" required><br><br>
                  
                  <textarea id="message" name="user_message" rows="6" cols="40" ></textarea><br>
-                 <input type="submit" value="SEND MESSAGE" class="submit-button">
+                 <input type="submit" value="SUBMIT" class="submit-button">
               </form>
             </div>
 

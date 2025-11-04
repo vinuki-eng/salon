@@ -278,7 +278,7 @@ textarea{
 .submit-button{
     margin-top: 2%;
     max-width: 100%;
-    padding: 1%;
+    padding: 2%;
     font-size: 20px;
     color: white;
     background-color: black;
@@ -292,12 +292,12 @@ textarea:focus{
     box-shadow: 0 0 15px darkred; 
 }
 
-input{
+ input{
     outline: none;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-input:focus{
+ input:focus{
     border-color: darkred;
     box-shadow: 0 0 15px darkred;
 }
@@ -353,6 +353,51 @@ figure:hover{
 }
 
 
+
+
+.phone-number-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.phone-login input{
+   font-size:larger;
+   border: 2px solid black;
+}
+
+
+.phone-code{
+   border-top: 2px solid black;
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+   padding-top: 1.5%;
+   padding-bottom: 0.8%;
+   
+}
+
+.phone-login ::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.login-button{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 15%;
+    border-radius: 5px;
+    padding: 3% 41%;
+}
+
+.phone-number-login h1{
+      margin-bottom: 0%;
+}
 
 
 
